@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: burlywood;
+    background-color: #C48A47;
     min-width: 290px;
     color: black;
     font-family: 'Cormorant Garamond', serif;
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  color: black;
+  color: #6BD66B;
   margin: 10px;
   font-size: 1.8em;
 }
@@ -46,7 +46,7 @@ header {
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: black;
+  color: #F0C648;
   text-decoration: none;
   cursor: pointer;
 }
@@ -62,8 +62,10 @@ section article {
   color: black;
   /* margin: 15px; */
   font-size: 0.96em;
+}
+
+.main-section {
   border-bottom: 1px solid black;
-  
 }
 
 /* https://hardiquedasore.medium.com/how-to-use-a-line-break-in-json-3c27d7ee8fc6 */
