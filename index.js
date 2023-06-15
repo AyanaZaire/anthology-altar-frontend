@@ -1,39 +1,50 @@
 document.addEventListener("DOMContentLoaded", () => {
-    loadRetreaters()
+    loadPoems()
+    createPoem()
 })
 
-function loadRetreaters() {
-    fetch("http://localhost:3000/retreaters")
+function loadPoems() {
+    fetch("http://localhost:3000/poems")
     .then(response => response.json())
-    .then(retreaters => {
-        displayRetreatersNav(retreaters)
-        displayRetreatersMain(retreaters)
+    .then(poems => {
+        displayPoemsNav(poems)
+        displayPoemsMain(poems)
     })
 }
 
-function displayRetreatersNav(retreaters) {
+function displayPoemsNav(poems) {
     let navUl = document.querySelector("#nav-ul")
-    retreaters.forEach(retreater => {
+    poems.forEach(poem => {
         let li =
         `<li>
-            <a class="nav-link" href="#${retreater.name}">${retreater.name}</a>
+            <a class="nav-link" href="#${poem.title}">${poem.title}</a>
+            <p>${poem.author}<span>${poem.year}</span></p>
         </li>`
         navUl.innerHTML += li
     })
 }
 
-function displayRetreatersMain(retreaters) {
+function displayPoemsMain(poems) {
     let mainDoc = document.querySelector("#main-doc")
-    retreaters.forEach(retreater => {
+    poems.forEach(poem => {
+        if (youtubeVideo != "") {
+            var youtubeVideo = `<iframe width="560" height="315" src="${poem.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+        }
         let mainSection = 
-        `<section class="main-section" id="${retreater.name}">
-            <header>${retreater.name}</header>
-            <iframe width="560" height="315" src="${retreater.youtubeLink}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        `<section class="main-section" id="${poem.title}">
+            <header>${poem.title}</header>
+            <img src="${poem.image}" class="poet-image"/>
+            ${youtubeVideo}
             <article>
-            ${retreater.essayTitle}
-            <p>${retreater.essayBody}</p>
+            <p class="author">${poem.author}</p>
+            <p class="year">${poem.year}</p>
+            <p>${poem.poem}</p>
             </article>
         </section>`
         mainDoc.innerHTML += mainSection
     })
+}
+
+function createPoem() {
+    
 }

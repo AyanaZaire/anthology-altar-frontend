@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Loophole Archive Altar</title>
+      <title>Anthology Altar</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav id="navbar">
-      <header>Loophole of Retreat 2019 Altar Archive</header>
+      <header>Anthology Altar</header>
       <ul id="nav-ul">
         <li>
             <a class="nav-link" href="#introduction">Introduction</a>
@@ -19,15 +19,52 @@
     </nav>
     <main id="main-doc">
       <section class="main-section" id="introduction">
-        <header>Introduction</header>
-        <article>
-          <p>
-            From a peephole in her grandmother’s garret that rests on her master’s property, a young woman watches while remaining concealed. Inspired by the autobiography of writer, abolitionist, and escaped slave girl Harriet Jacobs (1813-97), "Loophole of Retreat" locates a space of creation within places of capture. This self-reflexive production of freedom within incarceration - a hidden reality carved from within the center of power - served as our metaphor for this convening. An international constellation of writers, artists, poets, filmmakers, academics, and activists came together for a daylong gathering dedicated to the intellectual life of black women. Invited by artist Simone Leigh, feminist scholar Tina Campt, and cultural historian Saidiya Hartman, participants responded through papers, readings, and performance. 
-          </p>
-          <p>
-            Organized on the occasion of "The Hugo Boss Prize 2018: Simone Leigh, Loophole of Retreat". The Hugo Boss Prize and the exhibition are made possible by HUGO BOSS.
-          </p>
-        </article>
+        <div class="flex-container">
+          <div class="flex-child">
+            <header>Introduction</header>
+              <article>
+                <p>
+                  This project was built inside Seeda School.
+                </p>
+                <p>
+                  <b>NOTE:</b> Due to the nature of this project, line breaks in the poem are preserved but the formatting may differ from the orginial publishing of the poem. I encourage you to check out the source link to experience the orginial formatting of the poem.
+                </p>
+              </article>
+          </div>
+          <div class="flex-child">
+            <header>Add to the Anthology</header>
+            <form action="http://localhost:3000/poems" method="post">
+              <div class="form-divs">
+                <label for="title">Title</label><span><input type="text" name="title" id="title"></span>
+              </div>
+              <div class="form-divs">
+                <label for="author">Author</label><span><input type="text" name="author" id="author"></span>
+              </div>
+              <div class="form-divs">
+                <label for="poem">Poem</label><span><textarea name="poem" id="poem" cols="30" rows="10"></textarea></span>
+              </div>
+              <div class="form-divs">
+                <label for="source">Source</label><span><input type="text" name="source" id="source"></span>
+              </div>
+              <div class="form-divs">
+                <label for="book">Book</label><span><input type="text" name="book" id="book"></span>
+              </div>
+              <div class="form-divs">
+                <label for="publisher">Publisher</label><span><input type="text" name="publisher" id="publisher"></span>
+              </div>
+              <div class="form-divs">
+                <label for="year">Year</label><span><input type="number" name="year" id="year"></span>
+              </div>
+              <div class="form-divs">
+                <label for="image">Image Link</label><span><input type="text" name="image" id="image"></span>
+              </div>
+              <div class="form-divs">
+                <label for="video">YouTube URL</label><span><input type="text" name="video" id="video"></span>
+              </div>
+              <input type="submit" value="contribute">
+            </form>
+          </div>
+        </div>
       </section>
     </main>
   </body>

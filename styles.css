@@ -3,8 +3,8 @@ body {
     background-color: #C48A47;
     min-width: 290px;
     color: black;
-    font-family: 'Cormorant Garamond', serif;
     line-height: 1.5;
+    scroll-behavior: smooth;
 }
 
 #navbar {
@@ -15,17 +15,23 @@ body {
   width: 300px;
   height: 100%;
   border-right: solid 1px black;
+  /* filter: drop-shadow(0 0 0.75rem #7d12ff); */
 }
 
 header {
   color: #6BD66B;
+  filter: drop-shadow(0 0 0.75rem #7d12ff);
   margin: 10px;
   font-size: 1.8em;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 #main-doc header {
   text-align: left;
   margin: 0px;
+  font-size: xx-large;
+  font-family: 'Cormorant Garamond', serif;
+  filter: drop-shadow(0 0 0.75rem #7d12ff);
 }
 
 #navbar ul {
@@ -36,19 +42,37 @@ header {
 }
 
 #navbar li {
-  color: black;
   border-top: 1px solid;
   list-style: none;
   position: relative;
   width: 100%;
+  padding: 10px 30px;
 }
 
 #navbar a {
   display: block;
-  padding: 10px 30px;
-  color: #F0C648;
   text-decoration: none;
   cursor: pointer;
+  font-size: larger;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #6BD66B;
+  filter: drop-shadow(0 0 0.75rem #7d12ff);
+}
+
+#navbar p {
+  margin: 0;
+  display: flex;
+  gap: 70px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: x-small;
+  text-transform: uppercase;
 }
 
 #main-doc {
@@ -56,16 +80,66 @@ header {
   margin-left: 310px;
   padding: 20px;
   margin-bottom: 110px;
+  font-size: small;
+  font-family: 'IBM Plex Mono', monospace;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
 
 section article {
   color: black;
   /* margin: 15px; */
   font-size: 0.96em;
+  margin-bottom: 30px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+label {
+  margin-bottom: 10px;
+  width: 70px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+.form-divs {
+  display: flex;
+  gap: 17px;
 }
 
 .main-section {
   border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.author {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: large;
+  margin-bottom: -15px;
+}
+
+.poet-image {
+  float: right;
+  width: 20%;
 }
 
 /* https://hardiquedasore.medium.com/how-to-use-a-line-break-in-json-3c27d7ee8fc6 */
@@ -86,7 +160,7 @@ section li {
   }
 
   #navbar {
-    background-color: burlywood;
+    background-color: #C48A47;
     position: absolute;
     top: 0;
     padding: 0;
