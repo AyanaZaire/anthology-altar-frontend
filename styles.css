@@ -22,7 +22,7 @@ header {
   color: #6BD66B;
   filter: drop-shadow(0 0 0.75rem #7d12ff);
   margin: 10px;
-  font-size: 1.8em;
+  font-size: xx-large;
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -115,10 +115,13 @@ label {
 input, textarea {
   margin-bottom: 10px;
   width: 400px;
+  border-radius: 17px;
 }
 
 input[type="submit"] {
-  width: 100%;
+  width: 500px;
+  filter: drop-shadow(0 0 0.40rem #7d12ff);
+  margin-bottom: 30px;
 }
 
 .form-divs {
@@ -140,6 +143,17 @@ input[type="submit"] {
 .poet-image {
   float: right;
   width: 20%;
+}
+
+.citation {
+  margin-top: 70px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: large;
+}
+
+.citation-text {
+  margin-top: 70px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /* https://hardiquedasore.medium.com/how-to-use-a-line-break-in-json-3c27d7ee8fc6 */

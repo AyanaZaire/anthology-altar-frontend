@@ -2,15 +2,134 @@
     "poems": [
         {
             "id": 1,
-            "title": "",
-            "author": "",
-            "poem": "",
-            "source": "",
-            "book": "",
-            "publisher": "",
-            "year": 0,
-            "image": "",
-            "video": ""
+            "title": "November",
+            "author": "Rhea Dillon",
+            "poem": "This is the oppressors language yet I need to talk to you \nFor those of us who have survived but were never meant \nIt is, perhaps, all we can share \nOther channels too deep or are too \nToo drowned \nListen, time is slipping \nso, imagine \nImagine a private done in public \nDoes that still make it private? \nI think death is private \nBlack death is public \nSays the twitter feed ringing beyond its web page line \nNo I don't remember dial up \nHow could I, I was a mistake like the majority of Gen Z in the pre millennial boom \nNow we have gadgets and gizmos and sites a plenty \nA sixth sense of living on demand \nNo, I don't want to see you \nI demand to.",
+            "source": "https://www.printedmatter.org/catalog/59623/",
+            "book": "Donald Dahmer",
+            "publisher": "V.O Curations",
+            "year": 2022,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22336991/original_32893db019ec6c2fc291844ffa3505e3.jpg?1687285929?bc=0"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Stations",
+            "author": "Audre Lorde",
+            "poem": "Some women love\nto wait\nfor life for a ring\nin the June light for a touch\nof the sun to heal them for another\nwoman's voice to make them whole\nto untie their hands\nput words in their mouths\nform to their passages sound\nto their screams for some other sleeper\nto remember their future their past.\n\nSome women wait for their right\ntrain in the wrong station\nin the alleys of morning\nfor the noon to holler\nthe night come down.\n\nSome women wait for love\nto rise up\nthe child of their promise\nto gather from earth\nwhat they do not plant\nto claim pain for labor\nto become\nthe tip of an arrow to aim\nat the heart of now\nbut it never stays.\n\nSome women wait for visions\nthat do not return\nwhere they were not welcome\nnaked\nfor invitations to places\nthey always wanted\nto visit\nto be repeated.\n\nSome women wait for themselves\naround the next corner\nand call the empty spot peace\nbut the opposite of living\nis only not living\nand the stars do not care.\n\nSome women wait for something\nto change and nothing\ndoes change\nso they change\nthemselves.",
+            "source": "https://global.oup.com/ushe/product/the-oxford-anthology-of-african-american-poetry-9780195125634?cc=jp&lang=en&",
+            "book": "The Oxford Anthology of African-American Poetry",
+            "publisher": "Oxford University Press",
+            "year": 2005,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337021/original_1008d34a2914eefad183dc5b2848ec42.jpg?1687285988?bc=0"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Omnivore",
+            "author": "Harryette Mullen",
+            "poem": "Because I was afraid to lose you\nI swallowed stones\nchewed metal\nsucked bullets through my teeth\n\nWhile you licked sugar\nI pocketed salt\nI burned my tears\ncooked my blues\nand ate the smoke\n\nAnd still you left me\nspilling all my hungers\nmy belly split open\nfull of wonders\nlike an ancient fish",
+            "source": "https://global.oup.com/ushe/product/the-oxford-anthology-of-african-american-poetry-9780195125634?cc=jp&lang=en&",
+            "book": "The Oxford Anthology of African-American Poetry",
+            "publisher": "Oxford University Press",
+            "year": 2005,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337018/original_e0c1c70960c7644567014af675de90af.jpg?1687285983?bc=0"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "VERSO 28",
+            "author": "Dionne Brand",
+            "poem": "You are essence and then you become imperfect, the clerk says. Why is this? the author asks. Dunno, the clerk replies, I'm only the clerk and this is all I know. I have been taught how to be perfect, but not how to live. The author as usual feels implicated in this. I don't mind, the clerk quickly decides. This tendency for self-implication in the author only elicits more leaves and at this moment the clerk is inundated, thinking of the smell of the earth the author has just brought in with her. The ground smelled like fresh ploughed earth outside the Robarts Library and the clerk thought of the books inside and how, collected there in stacks, they have returned to their original selves as trees and earth, and how difficult it must be for them to be wrenched open again and again to be read and read even as they are returning, reaching through each other and the concrete boat around them. That is why it smells like new ploughed ground around the library. The author brings this smell with her sometimes, it is on her fingers and in her hair as if she's done some work in dirt and then reached for her head absentmindedly.",
+            "source": "https://www.dukeupress.edu/the-blue-clerk",
+            "book": "The Blue Clerk: Ars Poetica in 59 Versos",
+            "publisher": "Duke University Press Books",
+            "year": 2018,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337025/original_0059fc6d8b6068dbdd564f9efd63999a.jpg?1687285991?bc=0"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Who Said It Was Simple",
+            "author": "Audre Lorde",
+            "poem": "There are so many roots to the tree of anger  \nthat sometimes the branches shatter \nbefore they bear. \n \nSitting in Nedicks \nthe women rally before they march  \ndiscussing the problematic girls  \nthey hire to make them free. \nAn almost white counterman passes  \na waiting brother to serve them first  \nand the ladies neither notice nor reject  \nthe slighter pleasures of their slavery.  \nBut I who am bound by my mirror  \nas well as my bed \nsee causes in colour \nas well as sex \n \nand sit here wondering  \nwhich me will survive \nall these liberations.",
+            "source": "https://www.dukeupress.edu/we-wanted-a-revolution",
+            "book": "We Wanted a Revolution — Black Radical Women, 1965–85: A Sourcebook",
+            "publisher": "Duke University Press Books",
+            "year": 2017,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337074/original_44ea909f003ff19542b53c3b449b9a07.jpg?1687286089?bc=0"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Backwater Blues",
+            "author": "Bessie Smith",
+            "poem": "When it rains five days and the skies turn dark as night  \nWhen it rains five days and the skies turn dark as night  \nThen trouble's takin' place in the lowlands at night \n \nI woke up this mornin', can't even get out of my door \nI woke up this mornin', can't even get out of my door  \nThat's enough trouble to make a poor girl wonder where she wanna go \n \nThen they rowed a little boat about five miles 'cross the pond \nThen they rowed a little boat about five miles 'cross the pond \nI packed all my clothes, throwed 'em in and they rowed me along \n \nWhen it thunders and lightnin', and the wind begins to blow \nWhen it thunders and lightnin', and the wind begins to blow \nThere's thousands of people ain't got no place to go \n \nThen I went and stood upon some high old lonesome hill  \nThen I went and stood upon some high old lonesome hill  \nThen looked down on the house where I used to live \n \nBackwater blues done caused me to pack my things and go  \nBackwater blues done caused me to pack my things and go  \n'Cause my house fell down and I can't live there no mo' \n \nMmmmmmmmm, I can't move no mo'  \nMmmmmmmmm, I can't move no mo'  \nThere ain't no place for a poor old girl to go.",
+            "source": "https://kevinyoungpoetry.com/blues-poems.html",
+            "book": "Blues Poems",
+            "publisher": "Random House/Penguin",
+            "year": 2003,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337001/original_eb7cb092983680ee25918a448a43c975.jpg?1687285948?bc=0"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "@Tubman's_Rock $[8]",
+            "author": "Lillian-Yvonne Bertram",
+            "poem": "People also ask what was Harriet Tubman's life like? \nIn each pound of dollar bills— \nJesus is a friend with friends \nTreasured secretary: just like Jesus we won't stay dead \nOur Moses hollered down the lions  \nnever lost a passenger \npound of cotton \nslave patrol also called patterrollers  \npattyrollers paddy rollers patrollers  \nin no rush the first quail calls \nI just wanted the world to see \nthree fourths of a",
+            "source": "https://www.noemipress.org/catalog/poetry/travesty-generator/",
+            "book": "Travesty Generator",
+            "publisher": "Noemi Press",
+            "year": 2019,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337054/original_d51250b0d510be05f3f0859badab3944.jpg?1687286047?bc=0"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Blackbottom",
+            "author": "Toi Derricotte",
+            "poem": "When relatives came from out of town, \nwe would drive down to Blackbottom,  \ndrive slowly down the congested main streets \n— Beubian and Hastings — \ntrapped in the mesh of Saturday night. \nFreshly escaped, black middle class, \nwe snickered, and were proud; \nthe louder the streets, the prouder. \nWe laughed at the bright clothes of a prostitute, \na man sitting on a curb with a bottle in his hand. \nWe smelled barbecue cooking in dented washtubs, and our mouths watered. \nAs much as we wanted it we couldn't take the chance. \n \nRhythm and blues came from the windows, the throaty voice of a woman lost in the bass, in the drums, in the dirty down and out, the grind. \n\"I love to see a funeral, then I know it ain't mine.\"  \nWe rolled our windows down so that the waves rolled over us like blood. \nWe hoped to pass invisibly, knowing on Monday we would return safely to our jobs, the post office and classroom. \nWe wanted our sufferings to be offered up as tender meat, and our triumphs to be belted out in raucous song. \n \nWe had lost our voice in the suburbs, in Conant Gardens, where each brick house delineated a fence of silence; \nwe had lost the right to sing in the street and damn creation. \n \nWe returned to wash our hands of them,   \nto smell them \nwhose very existence \n tore us down to the human.",
+            "source": "https://kevinyoungpoetry.com/blues-poems.html",
+            "book": "Blues Poems",
+            "publisher": "Random House/Penguin",
+            "year": 2003,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337006/original_53426fcf0e2e8f3763e2a43d87fa9395.jpg?1687285962?bc=0",
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337024/original_19f599b988468f448e35768b95fa1f44.jpg?1687285991?bc=0"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "quilting",
+            "author": "Lucille Clifton",
+            "poem": "somewhere in the unknown world \na yellow eyed woman \nsits with her daughter quilting. \n \nsome other where \nalchemists mumble over pots. \ntheir chemistry stirs \ninto science. their science \nfreezes into stone. \n \nin the unknown world \nthe woman \nthreading together her need  \nand her needle \nnods toward the smiling girl  \nremember \nthis will keep us warm. \n \nhow does this poem end? \ndo the daughters' daughters quilt?  \ndo the alchemists practice their tables? \ndo the worlds continue spinning  \naway from each other forever?",
+            "source": "https://www.boaeditions.org/products/quilting-1",
+            "book": "Quilting: Poems 1987-1990 (American Poets Continuum Series, Vol. 21)",
+            "publisher": "BOA Editions Ltd.",
+            "year": 2000,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22336997/original_8ed0f3f72819b01c5d62b6c64a4f785d.jpg?1687285940?bc=0"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Beverly Buchanan, Artist, 1940-2015",
+            "author": "Alice Walker",
+            "poem": "Someone who knew me well \nAnd that I'd lived \nIn many a gray shack \nMy mother transformed \nWith flowers \nTook me to your house \nTo meet you: \nTo see the shacks \nYou rescued from our shame \nAnd transformed with your wit, \nSmall nails, old boards, \nAnd paint. \nI was enchanted to see \nMy mother's magic \nEmerge \nFrom the end \nOf your brush. \nNow you have left us. The streaming \nLight through all your shacks'  \nCracks \nLike the streaming genius \nOf your own obsessed mind. \nHow do we make new \nAnd restorative of soul \nThe old pain? How do we learn  \nTo carry with grace and humor  \nAll that has happened to us?  \nBuchanan, for instance. Whose name  \nWas that before it was slapped across  \nThe memory of the enslaved?  \nYour ancestors \nIn Africa were not Buchanans \nAnd may have been esteemed artists  \nEvery one of them,  \nFor all we know. \nAh, Beverly, \nAll of us in our age clan \nAre in the homestretch now.  \nWe will not be far behind you. \nTrailing our chalk, our pencil sticks \nWith which we wrote and drew in the dirt, \nOur paints made from berries, barks, \nAnd tears. \nWith open hands \nWe have offered our art \nMade from whatever scraps \nWere left over from our destruction, \nTheir absence from \nThe big house table of greed and ignorance \nNever missed. \nThis poem is to say how glad I am \nTo have the shack \nYou made for me. Red as a strawberry! \nI would never have thought of that; yet \nHow right it has turned out to be. \nFor I do not wallow in sadness \nThough it visits more often these days \nThan I would like; \nThe world is dying \nIn so many ugly ways \nAnd humans with it. \nAnd yet, against all odds \nI realize \nThere will always be a Beverly Buchanan  \nArising from a virtual \"nowhere\" \nTo cobble together the broken pieces \n—Left over from the beauty \nThat is destroyed— \nAnd paint them red \nFor dancing.",
+            "source": "https://www.dukeupress.edu/we-wanted-a-revolution",
+            "book": "We Wanted a Revolution — Black Radical Women, 1965–85: A Sourcebook",
+            "publisher": "Duke University Press Books",
+            "year": 2017,
+            "images": [
+                "https://d2w9rnfcy7mm78.cloudfront.net/22337072/original_1d4a38dc93b07410c949b79ff17e9d97.jpg?1687286078?bc=0"
+            ]
         }
     ]
 }
